@@ -31,12 +31,12 @@ int main(){
         printf("This number is Negative => %d",a);
 
     }
-    else if (0 == 0)
+    else if (a > 0)
     {
-        printf(" This number is Neutral => %d",a);
+        printf(" This number is Positive  => %d",a);
     }
     else{
-        printf("This number is Positive  => %d",a);
+        printf("This number is  Neutral => %d",a);
     }
     
 }
