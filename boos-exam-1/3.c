@@ -4,6 +4,10 @@ int main(){
 
     int user;
 
+    printf("marks >= 85 : grade a\n");
+    printf("marks >= 70 : grade b\n");
+    printf("marks >= 50 : grade c\n");
+    printf("marks < 50 : grade d\n");
     printf("enter the marks  => ");
     scanf("%d",&user);
 
